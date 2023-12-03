@@ -61,6 +61,12 @@ build CMakeFiles/maze.dir/maze.cpp.obj: CXX_COMPILER__maze_unscanned_Debug C$:/U
   OBJECT_DIR = CMakeFiles\maze.dir
   OBJECT_FILE_DIR = CMakeFiles\maze.dir
 
+build CMakeFiles/maze.dir/solution/A_star/A_star.cpp.obj: CXX_COMPILER__maze_unscanned_Debug C$:/Users/Elysia/code/c++/maze/solution/A_star/A_star.cpp || cmake_object_order_depends_target_maze
+  DEP_FILE = CMakeFiles\maze.dir\solution\A_star\A_star.cpp.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\maze.dir
+  OBJECT_FILE_DIR = CMakeFiles\maze.dir\solution\A_star
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target maze
@@ -69,7 +75,7 @@ build CMakeFiles/maze.dir/maze.cpp.obj: CXX_COMPILER__maze_unscanned_Debug C$:/U
 #############################################
 # Link the executable maze.exe
 
-build maze.exe: CXX_EXECUTABLE_LINKER__maze_Debug CMakeFiles/maze.dir/main.cpp.obj CMakeFiles/maze.dir/maze.cpp.obj
+build maze.exe: CXX_EXECUTABLE_LINKER__maze_Debug CMakeFiles/maze.dir/main.cpp.obj CMakeFiles/maze.dir/maze.cpp.obj CMakeFiles/maze.dir/solution/A_star/A_star.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\maze.dir

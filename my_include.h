@@ -10,6 +10,5 @@
 #include <time.h>
 using namespace std;
 
-
 #define MAZE_MY_INCLUDE_H
 #endif //MAZE_MY_INCLUDE_H

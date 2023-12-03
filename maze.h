@@ -17,8 +17,8 @@
 //    };
 //};
 
-//初始化迷宫
-void creat(int G[100][100]);
+//初始化迷宫                    尺寸
+void creat(int G[100][100],int size);
 //打印迷宫
 void print_maze(int G[100][100]);
 #endif //MAZE_MAZE_H

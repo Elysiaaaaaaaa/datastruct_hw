@@ -1,14 +1,12 @@
 #include "my_include.h"
 #include "maze.h"
-#define m 11
-#define n 11
 #define down 1
 #define right 2
 #define left 4
 #define up 8
 #define WALL 0
 #define NOTHING 1
-
+int m,n;
 struct block{
 	int row,column,direction;
 	block(int _row,int _column,int _direction){
@@ -66,8 +64,9 @@ void print_maze(int G[100][100]){
 	}
 }
 
-void creat(int G[100][100]) {
-	init(G);
+void creat(int G[100][100],int size) {
+	m = n = size;
+    init(G);
 	srand((unsigned)time(NULL));//随机数种子
 	FindBlock(G);
 	//第一步压入两堵墙（起点右边和起点下面）进入循环

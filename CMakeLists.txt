@@ -6,4 +6,6 @@ set(CMAKE_CXX_STANDARD 17)
 add_executable(maze main.cpp
         maze.cpp
         maze.h
-        my_include.h)
+        my_include.h
+        solution/A_star/A_star.cpp
+        solution/A_star/A_star.h)
