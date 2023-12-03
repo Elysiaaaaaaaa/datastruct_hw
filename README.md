@@ -24,3 +24,9 @@ An abstract project
 xxxxxxxx
 ### bfs
 xxxxxxxx
+
+---
+## 提交方法
+git add *
+git commit -m "随便写点"
+git push origin master
