@@ -36,8 +36,12 @@ git clone git@github.com:Elysiaaaaaaaa/datastruct_hw.git
 
 提交代码固定三连(在有.git文件夹下操作)
 ```
-git fetch origin
 git add 你改了的文件名
 git commit -m "随便写点"
 git push origin master
+```
+
+
+```
+git fetch origin
 ```
