@@ -5,7 +5,7 @@
 
 
 //初始化迷宫                    尺寸
-void creat(int G[100][100],int G_w[100][100][2],int size,Point & begin,Point & end, bool weight=false);
+void creat(int G[100][100],int G_w[100][100][2],int size,Point & begin,Point & end);
 //打印迷宫
 void print_maze(int G[100][100]);
 //带权重

@@ -17,7 +17,7 @@ struct block{
 };
 
 
-struct point start,myend;
+Point start,myend;
 vector<block> myblock;
 int x_num=1,y_num=1;//矿工位置
 //int G[100][100];
@@ -77,7 +77,7 @@ void print_maze_w(int G[100][100][2]){
 	}
 }
 
-void creat(int G[100][100],int G_w[100][100][2],int size,Point & begin,Point & end, bool weight){
+void creat(int G[100][100],int G_w[100][100][2],int size,Point & begin,Point & end){
 	m = n = size;
     init(G);
     begin.x = begin.y = 1;
@@ -131,17 +131,18 @@ void creat(int G[100][100],int G_w[100][100][2],int size,Point & begin,Point & e
     G[myend.x][myend.y] = 3;
     end.x = myend.x;
     end.y = myend.y;
-    if(weight){
-        srand(666);
-        for(int i = 0; i <= size+1;i++){
-            for(int j = 0; j <= size+1;j++){
-                G_w[i][j][0] = G[i][j];
-                if (G[i][j]==0){
-                    G_w[i][j][1] = 0;
-                } else{
-                    G_w[i][j][1] = rand()%7 + 1;
-                }
+
+//    加权
+    srand(666);
+    for(int i = 0; i <= size+1;i++){
+        for(int j = 0; j <= size+1;j++){
+            G_w[i][j][0] = G[i][j];
+            if (G[i][j]==0){
+                G_w[i][j][1] = 0;
+            } else{
+                G_w[i][j][1] = rand()%7 + 1;
             }
         }
     }
+
 }
