@@ -12,8 +12,8 @@ int G_w[100][100][2];
 int main(){
 
 //  创建迷宫
-    creat(G,G_w,11,m_begin,m_end);
-    creat(G,G_w,11,m_begin,m_end, true);
+    creat(G,G_w, SIZE,m_begin,m_end);
+    creat(G,G_w,SIZE,m_begin,m_end, true);
 //  打印迷宫
     cout<<m_begin.x<<m_begin.y<<endl;
     cout<<m_end.x<<m_end.y<<endl;

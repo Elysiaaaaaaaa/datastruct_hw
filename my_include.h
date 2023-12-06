@@ -10,6 +10,7 @@
 #include <time.h>
 #include <queue>
 #include <cstdlib>
+#define SIZE 11
 using namespace std;
 
 typedef struct point {
