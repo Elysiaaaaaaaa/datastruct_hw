@@ -9,7 +9,13 @@
 #include <cstring>
 #include <time.h>
 #include <queue>
+#include <cstdlib>
 using namespace std;
+
+typedef struct point {
+	int x;
+	int y;
+} Point;
 
 #define MAZE_MY_INCLUDE_H
 #endif //MAZE_MY_INCLUDE_H
