@@ -4,15 +4,21 @@
 #include "maze.h"
 
 #include "solution/A_star/A_star.h"
-int begin_x,begin_y,end_x,end_y;
+
+Point m_begin,m_end;
+int G[100][100];
+int G_w[100][100][2];
 //
 int main(){
-    int G[100][100];
+
 //  创建迷宫
-    creat(G,11,begin_x,begin_y,end_x,end_y);
+    creat(G,G_w,11,m_begin,m_end);
+    creat(G,G_w,11,m_begin,m_end, true);
 //  打印迷宫
-    cout<<begin_x<<begin_y<<endl;
-    cout<<end_x<<end_y<<endl;
+    cout<<m_begin.x<<m_begin.y<<endl;
+    cout<<m_end.x<<m_end.y<<endl;
     print_maze(G);
+    cout<<"weight"<<endl<<endl;
+    print_maze_w(G_w);
     return 0;
 }

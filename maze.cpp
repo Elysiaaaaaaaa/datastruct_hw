@@ -16,10 +16,7 @@ struct block{
 	}
 };
 
-struct point {
-	int x;
-	int y;
-};
+
 struct point start,myend;
 vector<block> myblock;
 int x_num=1,y_num=1;//矿工位置
@@ -27,7 +24,7 @@ int x_num=1,y_num=1;//矿工位置
 
 void init(int G[100][100]) {
 	//将地图全部置为墙
-	memset(G,WALL,sizeof(G));
+//	memset(G,WALL,sizeof(G));
 	//定义起始点
 	G[1][1] = NOTHING;
 	start.x = start.y = 1;
@@ -64,10 +61,26 @@ void print_maze(int G[100][100]){
 	}
 }
 
-void creat(int G[100][100],int size,int &begin_x,int &begin_y,int &end_x,int &end_y){
+void print_maze_w(int G[100][100][2]){
+    for (int i=0;i<=m+1;i++) {
+		for (int j=0;j<=n+1;j++) {
+			if(i == start.x && j == start.y) {
+				printf("*");
+			}
+            else if(i == myend.x && j == myend.y) {
+				printf("&");
+			}
+            else
+                cout<<G[i][j][1];
+		}
+		printf("\n");
+	}
+}
+
+void creat(int G[100][100],int G_w[100][100][2],int size,Point & begin,Point & end, bool weight){
 	m = n = size;
     init(G);
-    begin_y = begin_x = 1;
+    begin.x = begin.y = 1;
 	srand((unsigned)time(NULL));//随机数种子
 	FindBlock(G);
 	//第一步压入两堵墙（起点右边和起点下面）进入循环
@@ -116,6 +129,19 @@ void creat(int G[100][100],int size,int &begin_x,int &begin_y,int &end_x,int &en
         myend.y = y_num;
 	}
     G[myend.x][myend.y] = 3;
-    end_x = myend.x;
-    end_y = myend.y;
+    end.x = myend.x;
+    end.y = myend.y;
+    if(weight){
+        srand(666);
+        for(int i = 0; i <= size+1;i++){
+            for(int j = 0; j <= size+1;j++){
+                G_w[i][j][0] = G[i][j];
+                if (G[i][j]==0){
+                    G_w[i][j][1] = 0;
+                } else{
+                    G_w[i][j][1] = rand()%7 + 1;
+                }
+            }
+        }
+    }
 }
