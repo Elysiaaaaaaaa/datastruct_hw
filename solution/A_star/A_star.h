@@ -6,8 +6,14 @@
 #define A_STAR_A_STAR_H
 
 #include "../../my_include.h"
+typedef struct My_Point{
+//    数组下标
+    int row,col;
+//    评估标准
+    int f,g,h;
+}MyPoint;
+int A_star(int map[][100][2],Point begpos_point,Point endpos_point);
 
-int A_star_main();
 
 
 #endif //A_STAR_A_STAR_H

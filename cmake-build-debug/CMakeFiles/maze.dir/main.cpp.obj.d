@@ -181,4 +181,6 @@ CMakeFiles/maze.dir/main.cpp.obj: \
  C:/Users/Elysia/Downloads/mingw/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/uses_allocator.h \
  C:\Users\Elysia\code\c++\datastruct_hw\maze.h \
  C:\Users\Elysia\code\c++\datastruct_hw\solution/A_star/A_star.h \
+ C:/Users/Elysia/code/c++/datastruct_hw/my_include.h \
+ C:\Users\Elysia\code\c++\datastruct_hw\solution/bfs/bfs.h \
  C:/Users/Elysia/code/c++/datastruct_hw/my_include.h

@@ -13,11 +13,6 @@
 #define SIZE 11
 using namespace std;
 
-//typedef struct point {
-//	int x;
-//	int y;
-//} Point;
-
 class Point{
 public:
     int x,y;

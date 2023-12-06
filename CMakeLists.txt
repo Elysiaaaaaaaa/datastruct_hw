@@ -10,4 +10,5 @@ add_executable(maze main.cpp
         solution/A_star/A_star.cpp
         solution/A_star/A_star.h
         solution/bfs/bfs.cpp
-        solution/bfs/bfs.h)
+        solution/bfs/bfs.h
+)

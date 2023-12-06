@@ -98,6 +98,9 @@
 		<Unit filename="C:/Users/Elysia/code/c++/datastruct_hw/solution/A_star/A_star.h">
 			<Option target="maze"/>
 		</Unit>
+		<Unit filename="C:/Users/Elysia/code/c++/datastruct_hw/solution/A_star/test.cpp">
+			<Option target="maze"/>
+		</Unit>
 		<Unit filename="C:/Users/Elysia/code/c++/datastruct_hw/solution/bfs/bfs.cpp">
 			<Option target="maze"/>
 		</Unit>

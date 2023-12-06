@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/maze.dir/maze.cpp.obj.d"
   "CMakeFiles/maze.dir/solution/A_star/A_star.cpp.obj"
   "CMakeFiles/maze.dir/solution/A_star/A_star.cpp.obj.d"
+  "CMakeFiles/maze.dir/solution/A_star/test.cpp.obj"
+  "CMakeFiles/maze.dir/solution/A_star/test.cpp.obj.d"
   "CMakeFiles/maze.dir/solution/bfs/bfs.cpp.obj"
   "CMakeFiles/maze.dir/solution/bfs/bfs.cpp.obj.d"
   "libmaze.dll.a"

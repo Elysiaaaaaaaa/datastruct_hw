@@ -22,6 +22,7 @@ int main(){
     cout<<"weight"<<endl<<endl;
     print_maze_w(G_w);
     cout<<"weight"<<endl<<endl;
+    A_star(G_w, m_begin,m_end);
 
 
     return 0;

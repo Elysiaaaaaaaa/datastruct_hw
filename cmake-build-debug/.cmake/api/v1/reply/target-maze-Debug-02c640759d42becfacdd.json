@@ -55,7 +55,8 @@
 				0,
 				1,
 				4,
-				6
+				6,
+				8
 			]
 		}
 	],
@@ -95,7 +96,8 @@
 				0,
 				1,
 				4,
-				6
+				6,
+				8
 			]
 		},
 		{
@@ -154,6 +156,12 @@
 			"backtrace" : 1,
 			"path" : "solution/bfs/bfs.h",
 			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "solution/A_star/test.cpp",
+			"sourceGroupIndex" : 0
 		}
 	],
 	"type" : "EXECUTABLE"

@@ -200,6 +200,30 @@ solution/A_star/A_star.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\maze.dir\build.make CMakeFiles/maze.dir/solution/A_star/A_star.cpp.s
 .PHONY : solution/A_star/A_star.cpp.s
 
+solution/A_star/test.obj: solution/A_star/test.cpp.obj
+.PHONY : solution/A_star/test.obj
+
+# target to build an object file
+solution/A_star/test.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\maze.dir\build.make CMakeFiles/maze.dir/solution/A_star/test.cpp.obj
+.PHONY : solution/A_star/test.cpp.obj
+
+solution/A_star/test.i: solution/A_star/test.cpp.i
+.PHONY : solution/A_star/test.i
+
+# target to preprocess a source file
+solution/A_star/test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\maze.dir\build.make CMakeFiles/maze.dir/solution/A_star/test.cpp.i
+.PHONY : solution/A_star/test.cpp.i
+
+solution/A_star/test.s: solution/A_star/test.cpp.s
+.PHONY : solution/A_star/test.s
+
+# target to generate assembly for a file
+solution/A_star/test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\maze.dir\build.make CMakeFiles/maze.dir/solution/A_star/test.cpp.s
+.PHONY : solution/A_star/test.cpp.s
+
 solution/bfs/bfs.obj: solution/bfs/bfs.cpp.obj
 .PHONY : solution/bfs/bfs.obj
 
@@ -242,6 +266,9 @@ help:
 	@echo ... solution/A_star/A_star.obj
 	@echo ... solution/A_star/A_star.i
 	@echo ... solution/A_star/A_star.s
+	@echo ... solution/A_star/test.obj
+	@echo ... solution/A_star/test.i
+	@echo ... solution/A_star/test.s
 	@echo ... solution/bfs/bfs.obj
 	@echo ... solution/bfs/bfs.i
 	@echo ... solution/bfs/bfs.s

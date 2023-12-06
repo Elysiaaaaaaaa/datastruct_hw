@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/Elysia/code/c++/datastruct_hw/main.cpp" "CMakeFiles/maze.dir/main.cpp.obj" "gcc" "CMakeFiles/maze.dir/main.cpp.obj.d"
   "C:/Users/Elysia/code/c++/datastruct_hw/maze.cpp" "CMakeFiles/maze.dir/maze.cpp.obj" "gcc" "CMakeFiles/maze.dir/maze.cpp.obj.d"
   "C:/Users/Elysia/code/c++/datastruct_hw/solution/A_star/A_star.cpp" "CMakeFiles/maze.dir/solution/A_star/A_star.cpp.obj" "gcc" "CMakeFiles/maze.dir/solution/A_star/A_star.cpp.obj.d"
+  "C:/Users/Elysia/code/c++/datastruct_hw/solution/A_star/test.cpp" "CMakeFiles/maze.dir/solution/A_star/test.cpp.obj" "gcc" "CMakeFiles/maze.dir/solution/A_star/test.cpp.obj.d"
   "C:/Users/Elysia/code/c++/datastruct_hw/solution/bfs/bfs.cpp" "CMakeFiles/maze.dir/solution/bfs/bfs.cpp.obj" "gcc" "CMakeFiles/maze.dir/solution/bfs/bfs.cpp.obj.d"
   )
 

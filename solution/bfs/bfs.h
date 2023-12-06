@@ -7,6 +7,6 @@
 
 #include "../../my_include.h"
 
-void bfs(int G[][100],int size);
+void bfs(int G[][100][2],int size,Point &begin,Point &end);
 
 #endif //MAZE_BFS_H
