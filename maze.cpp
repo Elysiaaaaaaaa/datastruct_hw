@@ -64,9 +64,10 @@ void print_maze(int G[100][100]){
 	}
 }
 
-void creat(int G[100][100],int size) {
+void creat(int G[100][100],int size,int &begin_x,int &begin_y,int &end_x,int &end_y){
 	m = n = size;
     init(G);
+    begin_y = begin_x = 1;
 	srand((unsigned)time(NULL));//随机数种子
 	FindBlock(G);
 	//第一步压入两堵墙（起点右边和起点下面）进入循环
@@ -115,4 +116,6 @@ void creat(int G[100][100],int size) {
         myend.y = y_num;
 	}
     G[myend.x][myend.y] = 3;
+    end_x = myend.x;
+    end_y = myend.y;
 }

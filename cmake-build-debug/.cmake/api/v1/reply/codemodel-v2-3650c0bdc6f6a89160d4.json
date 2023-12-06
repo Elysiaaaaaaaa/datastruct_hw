@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "maze::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-maze-Debug-3eb0d71983d4e82b36fc.json",
+					"jsonFile" : "target-maze-Debug-5387fbe42cc1cb9b8b96.json",
 					"name" : "maze",
 					"projectIndex" : 0
 				}
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/Elysia/code/c++/maze/cmake-build-debug",
-		"source" : "C:/Users/Elysia/code/c++/maze"
+		"build" : "C:/Users/Elysia/code/c++/datastruct_hw/cmake-build-debug",
+		"source" : "C:/Users/Elysia/code/c++/datastruct_hw"
 	},
 	"version" : 
 	{

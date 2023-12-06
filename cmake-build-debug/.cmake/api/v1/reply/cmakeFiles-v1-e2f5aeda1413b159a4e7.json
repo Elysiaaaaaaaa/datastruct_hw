@@ -49,6 +49,21 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
+			"path" : "C:/Users/Elysia/Downloads/clion/CLion 2023.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeFindCodeBlocks.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/Elysia/Downloads/clion/CLion 2023.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeExtraGeneratorDetermineCompilerMacrosAndIncludeDirs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/Elysia/Downloads/clion/CLion 2023.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/ProcessorCount.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
 			"path" : "C:/Users/Elysia/Downloads/clion/CLion 2023.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake"
 		},
 		{
@@ -149,8 +164,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "C:/Users/Elysia/code/c++/maze/cmake-build-debug",
-		"source" : "C:/Users/Elysia/code/c++/maze"
+		"build" : "C:/Users/Elysia/code/c++/datastruct_hw/cmake-build-debug",
+		"source" : "C:/Users/Elysia/code/c++/datastruct_hw"
 	},
 	"version" : 
 	{

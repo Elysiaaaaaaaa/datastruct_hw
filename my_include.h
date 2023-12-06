@@ -8,6 +8,7 @@
 #include <random>
 #include <cstring>
 #include <time.h>
+#include <queue>
 using namespace std;
 
 #define MAZE_MY_INCLUDE_H

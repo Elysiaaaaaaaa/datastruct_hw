@@ -1,14 +1,13 @@
 //
-// Created by Elysia on 2023/12/3.
+// Created by Elysia on 2023/11/30.
 //
 
-#ifndef MAZE_A_STAR_H
-#define MAZE_A_STAR_H
+#ifndef A_STAR_A_STAR_H
+#define A_STAR_A_STAR_H
+
+#include "../../my_include.h"
+
+int A_star_main();
 
 
-class A_star {
-
-};
-
-
-#endif //MAZE_A_STAR_H
+#endif //A_STAR_A_STAR_H
