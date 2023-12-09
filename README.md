@@ -11,7 +11,7 @@ An abstract project
   - 创建迷宫相关
 
         //传入二维数组，随机初始化迷宫 
-        void creat(int G[100][100],int size);
+        creat(G,G_w, SIZE,m_begin,m_end);
         //打印迷宫
         void print_maze(int G[100][100]);
 - main
