@@ -9,11 +9,15 @@ An abstract project
   - 包含常用头文件
 - maze.h
   - 创建迷宫相关
-
-        //传入二维数组，随机初始化迷宫 
-        void creat(int G[100][100],int size);
-        //打印迷宫
-        void print_maze(int G[100][100]);
+```c++
+//传入二维数组，随机初始化迷宫 
+void creat(int G[100][100],int size);
+//同上，G_w[x][y][0] 0不可走 1可走 ，G_w[x][y][1] 权重
+void creat(int G[100][100],int G_w[100][100][2],int size,Point & begin,Point & end);
+//打印迷宫
+void print_maze(int G[100][100]);
+```
+        
 - main
 
 
