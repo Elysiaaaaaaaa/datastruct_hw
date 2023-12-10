@@ -9,6 +9,7 @@ An abstract project
   - 包含常用头文件
 - maze.h
   - 创建迷宫相关
+<<<<<<< HEAD
 ```c++
 //传入二维数组，随机初始化迷宫 
 void creat(int G[100][100],int size);
